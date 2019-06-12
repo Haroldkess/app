@@ -16,7 +16,8 @@ element{
 .description {
     max-width: 705px;
     font-style: italic;
-    font-size: 30px
+    font-size: 30px;
+    padding-left: 20px;
 }
 .tittle{
     background-color:black;
@@ -30,10 +31,12 @@ element{
     background-color: black;
 
 }
-.game{
+
+
+p > img + code{
     padding-left: 10px;
     color: black;
-    font-size: 30px;
+    font-display: 30px;
     font-style: italic;
 }
 .programming{
@@ -42,4 +45,14 @@ element{
     color: black;
     font-size: 30px;
     font-style: italic;
+    font: bold;
 }
+
+
+section{
+    color:red;
+    font: bold;
+    font-size: 30px;
+
+}
+
